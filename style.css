@@ -46,6 +46,26 @@ h5 {
   border-bottom: 2px solid hsla(0, 0%, 0%, 1);
   margin: 5px;
 }
+
+#resumeButton {
+  text-align: center;
+  margin: 10px auto;
+  padding: 5px;
+  background: hsla(0, 0%, 47%, 1) url(https://s10.postimg.org/t6sg0l43d/shattered.png) top center repeat;
+  width: 400px;
+  border-radius: 20px;
+}
+
+button {
+  background:hsla(180, 59%, 51%, 1);
+  color: hsla(180, 100%, 25%, 1);
+  border: 1px solid hsla(180, 59%, 51%, 1);
+  border-radius: 30px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  box-shadow: 2px 1px 2px #000;
+}
+
 header, nav, main, footer {
   display: none;
 }
@@ -159,60 +179,13 @@ article ul {
   color: hsla(0, 100%, 25%, 1);
 }
 
+
 footer {
-  height: 250px;
-  background: hsla(0, 0%, 67%, 1) url(https://s10.postimg.org/t6sg0l43d/shattered.png) top center repeat;
-  padding: 5px 10px 0 0;
-}
-form {
-  margin-right: 10px;
-  padding: 10px 10px 10px 10px;
-  text-align: left;
-  float: right;
-  border: 2px solid lightgrey;
-  border-radius: 20px;
-}
-label {
-  padding-top: 10px;
-  color: hsla(0, 100%, 25%, 1);
-}
-label:first-child {
-  padding: 0;
-}
-label, input {
-  display: block
-}
-input {
-  width: 200px;
-}
-input[type=email] {
-  width: 200px;
-  border: 1px solid hsla(180, 59%, 51%, 1);
-  border-radius: 20px;
-  padding: 5px;
-  box-shadow: 2px 1px 2px #000;
-}
-textarea {
-  width: 200px;
-  height: 50px;
-  margin: 3px;
-  border: 1px solid hsla(180, 59%, 51%, 1);
-  border-radius: 20px;
-  padding:5px;
-  box-shadow: 2px 1px 2px #000;
-}
-input[type=submit] {
-  width: 200px;
-  background:hsla(180, 59%, 51%, 1);
-  color: hsla(180, 100%, 25%, 1);
-  border: 1px solid hsla(180, 59%, 51%, 1);
-  border-radius: 30px;
-  padding: 0 5px 0 5px;
-  margin-left: 10px;
-  box-shadow: 2px 1px 2px #000;
-}
-footer p {
-  margin-top: 220px;
-  font-size: 14px;
+  padding-bottom: 5px;
   text-align: center;
+}
+
+footer p {
+  color: lightgrey;
+  font-size: 14px;
 }
