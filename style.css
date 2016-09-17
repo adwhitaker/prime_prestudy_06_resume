@@ -17,6 +17,7 @@ a {
 
 body {
   background: hsla(0, 0%, 0%, 1) url(https://s10.postimg.org/us20jf3hl/footer_lodyas.png) top left repeat;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h2 {
@@ -25,7 +26,7 @@ h2 {
   margin-top: 20px;
   border-radius: 15px;
   color: hsla(0, 0%, 90%, 1);
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
   font-weight: 300;
   transform: translateX(-25px);
   text-shadow: 1px 2px 2px hsla(0, 0%, 0%, 0.5);
@@ -33,12 +34,10 @@ h2 {
 
 h3 {
   padding: 20px 0 10px 0;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h4 {
   padding: 20px 0 10px 0;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h5 {
@@ -46,7 +45,9 @@ h5 {
   font-size: .9em;
   border-bottom: 2px solid hsla(0, 0%, 0%, 1);
   margin: 5px;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+header, nav, main, footer {
+  display: none;
 }
 
 header {
@@ -56,7 +57,6 @@ header {
   text-align: center;
   border-radius: 25px;
   background: hsla(0, 0%, 47%, 1) url(https://s10.postimg.org/t6sg0l43d/shattered.png) top center repeat;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 header h1 {
@@ -85,7 +85,6 @@ nav ul li {
   margin-right: 0;
   border-radius: 10px;
   background: hsla(180, 100%, 25%, 0.7);
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -117,7 +116,6 @@ main {
   padding: 30px 50px 30px 50px;
   border-radius: 20px;
   background: hsla(20, 47%, 44%, 1) url(https://s10.postimg.org/7lk78iyvt/purty_wood.png) top center repeat;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 article {
@@ -126,7 +124,6 @@ article {
   margin: 30px 10px 60px 10px;
   background: hsla(0, 0%, 67%, 1) url(https://s10.postimg.org/t6sg0l43d/shattered.png) top center repeat;
   transform: skewX(-3deg);
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   box-shadow: 4px 3px 10px HSLa(0, 0%, 0%, 0.3);
 }
 
@@ -166,7 +163,6 @@ footer {
   height: 250px;
   background: hsla(0, 0%, 67%, 1) url(https://s10.postimg.org/t6sg0l43d/shattered.png) top center repeat;
   padding: 5px 10px 0 0;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 form {
   margin-right: 10px;
