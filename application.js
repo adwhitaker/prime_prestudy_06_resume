@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  $('button').on('click', function() {
+  $('#resumeButton').on('click', 'button', function() {
     $("header, nav, main, footer").slideDown();
-    $(this).remove();
+    $('#resumeButton').remove();
   });
 });
