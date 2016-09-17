@@ -3,4 +3,7 @@ $(document).ready(function () {
     $("header, nav, main, footer").slideDown();
     $('#resumeButton').remove();
   });
+  $('.contactInfo').on('click', 'button', function() {
+    $('#address').slideToggle();
+  });
 });
